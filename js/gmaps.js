@@ -1,7 +1,7 @@
 "use strict";(function(a,b){if(typeof exports==="object"){module.exports=b()}else{if(typeof define==="function"&&define.amd){define(["jquery","googlemaps!"],b)}else{a.GMaps=b()}}}(this,function(){
   /*!
    * GMaps.js v0.4.25
-   * http://hpneo.github.com/gmaps/
+   * http://hpneo.github.com/gmaps/ 
    *
    * Copyright 2017, Gustavo Leon
    * Released under the MIT License.
