@@ -77,32 +77,33 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate data-toggle="validator" role="form">
+				<form id="form_1" novalidate data-bs-toggle="validator" role="form">
 					<fieldset>
 						<legend>Demandez un devis</legend>
 						<div class="form-group">
 							<label for="inputName" class="control-label">
 							Nom <abbr title="Ce champ est obligatoire">*</abbr>
 							</label >
-							<input id="inputName" type="text" name="inputName" class="form-control" placeholder=" Votre nom"  aria-required=true  autofocus>
+							<input id="inputName" type="text" name="inputName" class="form-control" aria-label="Votre nom" placeholder=" Votre nom"  aria-invalid="false" aria-required="true" 
+							autofocus>
 						</div>
 						<div class="form-group">
 							<label for="inputEmail" class="control-label">
 							Adresse e-mail*
 							</label>	
-							<input id="inputEmail" class="form-control" type="inputEmail" placeholder="Votre e-mail" data-error="Adresse e-mail invalide" required aria-required=true>
+							<input id="inputEmail" class="form-control" type="inputEmail" aria-label="Votre e-mail" placeholder="Votre e-mail"  aria-invalid="false" aria-required="true">
 						</div>
 						<div class="form-group">
 							<label for="input_504">
 							Comment nous avez-vous connu ? *
 							</label>
-							<input class="form-control"  type="text" placeholder="Comment nous avez-vous connu ?"  aria-required=true  id="input_504">
+							<input class="form-control"  type="text" aria-label="Comment nous avez-vous connu ?" placeholder="Comment nous avez-vous connu ?"  aria-invalid="false" aria-required="true"  id="input_504">
 							</div>
 						<div class="form-group">
 							<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire) *<br>
 							</label>
-							<textarea id="message" type="text" class="form-control" rows="4" cols="50" form-control-lg placeholder="Brief de votre projet" aria-required=true ></textarea>
+							<textarea id="message" type="text" class="form-control" rows="4" cols="50" aria-label="Brief de votre projet" placeholder="Brief de votre projet" aria-invalid="false" aria-required="true" ></textarea>
 						</div>
 						<span class="help-block">
 							*Champs obligatoires
@@ -112,7 +113,6 @@
 						Envoyer
 					</button>
 				</form>
-			
 			</div>
 			<div class="col-sm-6">
 				<p>
